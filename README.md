@@ -1,12 +1,14 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+# Operationalizing Machine Learning on Azure
 
+## Overview
 
-# Your Project Title Here
+This project demonstrates how to apply MLOps principles in Azure. MLOps stands for machine learning operations and it is the art of applying DevOps principles in machine learning such as deploying a model, consuming endpoints and automating a pipeline.
 
-*TODO:* Write an overview to your project.
+In this project, we work with a bank marketing dataset to accurately predict if a potential client will subscribe to the bank's term deposit. A model is created using AutoML, and the model is then deployed and consumed via a REST endpoint.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step.
+
+![image](https://user-images.githubusercontent.com/54666362/109633584-298a8780-7b40-11eb-86f6-d11da9fb2737.png)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
