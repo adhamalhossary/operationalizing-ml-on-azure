@@ -72,14 +72,29 @@ Swagger is a tool that displays the contents of an API easily. The model is cons
 
 ## Create and Publish a Pipeline
 
+### Create Pipeline
 
+The first step is to create a pipeline
 
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
+![pipeline_run](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_run.png)
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+The pipeline endpoint
+
+![pipeline_endpoint](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_endpoint.png)
+
+Dataset Used
+
+![pipeline_dataset](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_dataset.png)
+
+### Publish Pipeline
+
+![pipeline_publish](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_publish.png)
+
+![pipeline_rundetails](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_rundetails.png)
+
+In the published pipeline overview we can see the status (ACTIVE) and a REST endpoint
+
+![pipeline_active](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_active.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
