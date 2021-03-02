@@ -94,13 +94,19 @@ Dataset Used:
 
 We then publish the pipeline. We used rundetails to monitor the progress of the pipeline
 
-![pipeline_publish](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_publish.png)
+#### Pipeline
+
+![pipeline_active](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_active.png)
+
+#### Rundetails
 
 ![pipeline_rundetails](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_rundetails.png)
 
 In the published pipeline overview we can see the status (ACTIVE) and a REST endpoint
 
-![pipeline_active](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_active.png)
+#### Active
+
+![pipeline_publish](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_publish.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
