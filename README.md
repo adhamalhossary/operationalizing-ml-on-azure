@@ -1,24 +1,40 @@
 # Operationalizing Machine Learning on Azure
 
-## Overview
+# Overview
 
 This project demonstrates how to apply MLOps principles in Azure. MLOps stands for machine learning operations and it is the art of applying DevOps principles in machine learning such as deploying a model, consuming endpoints and automating a pipeline.
 
 In this project, we work with a bank marketing dataset to accurately predict if a potential client will subscribe to the bank's term deposit. A model is created using AutoML, and the model is then deployed and consumed via a REST endpoint.
 
-## Architectural Diagram
+# Architectural Diagram
 
 ![Workflow](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/workflow.png)
 
 (Workflow Taken from Udacity)
 
-## Key Steps
+# Key Steps
 
-### Authentication
+## Authentication
 
 There was no need to authenticate as i used the environemnt provided by Udacity where authentication was already done.
 
-### AutoML model
+## AutoML model
+
+### Dataset Used
+
+As mentioned earlier, we used the bank marketing dataset in this project.
+
+--
+
+### Completed Experiment
+
+We create an AutoML run on this dataset to solve a classification problem while explaining the best model.
+
+
+
+### Best Model
+
+The best model was a Voting Ensemble model with an accuracy of 92%
 
 
 
