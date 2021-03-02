@@ -38,6 +38,32 @@ The best model was a Voting Ensemble model with an accuracy of 92%
 
 ![best_model](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/best_model.png)
 
+## Deploy the Best Model
+
+The voting ensemble model was then deployed
+
+![deploy_model](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/deploy_model.png)
+
+## Enable Logging
+
+After deploying the best model, Application Insights was enabled and the logs were retrieved
+
+![logs](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/logs.png)
+
+## Consume Model Endpoint
+
+### Swagger
+
+Swagger is a tool that displays the contents of an API easily. The model is consumed using Swagger that is running on the localhostto view t
+
+![swagger_1](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_1.png)
+
+![swagger_2](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_2.png)
+
+![swagger_3](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_3.png)
+
+
+
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
