@@ -62,6 +62,16 @@ Swagger is a tool that displays the contents of an API easily. The model is cons
 
 ![swagger_3](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_3.png)
 
+### Endpoint
+
+![endpoint](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/endpoint.png)
+
+### Benchmark
+
+![benchmark](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/benchmark.png)
+
+## Create and Publish a Pipeline
+
 
 
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
