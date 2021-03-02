@@ -13,6 +13,15 @@ In this project, we work with a bank marketing dataset to accurately predict if 
 (Workflow Taken from Udacity)
 
 ## Key Steps
+
+### Authentication
+
+There was no need to authenticate as i used the environemnt provided by Udacity where authentication was already done.
+
+### AutoML model
+
+
+
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
