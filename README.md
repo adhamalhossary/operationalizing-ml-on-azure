@@ -16,7 +16,7 @@ In this project, we work with a bank marketing dataset to accurately predict if 
 
 ## Authentication
 
-There was no need to authenticate as i used the environemnt provided by Udacity where authentication was already implemented.
+There was no need to authenticate as i used the environment provided by Udacity where authentication was already implemented.
 
 ## AutoML model
 
@@ -54,7 +54,7 @@ After deploying the best model, Application Insights was enabled and the logs we
 
 ### Swagger
 
-Swagger is a tool that displays the contents of an API in easy to read manner. The images below showsSwagger running on the localhost and the responses of the model
+Swagger is a tool that displays the contents of an API in easy to read manner. The images below shows Swagger running on the localhost and the responses of the model
 
 ![swagger_1](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_1.png)
 
@@ -70,7 +70,7 @@ The interact with the deployed model we use the endpoint.py script
 
 ### Benchmark
 
-To benchamrk our model, we retrieve a data.json that is created from the endpoint.py script. This json file is then used by benchmark.sh to retrieve performance results
+To benchmark our model, we retrieve a data.json that is created from the endpoint.py script. This json file is then used by benchmark.sh to retrieve performance results
 
 ![benchmark](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/benchmark.png)
 
@@ -108,5 +108,6 @@ In the published pipeline overview we can see the status (ACTIVE) and a REST end
 
 ![pipeline_publish](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_publish.png)
 
-## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+# Screen Recording
+
+https://youtu.be/JByL8p3lsnI
