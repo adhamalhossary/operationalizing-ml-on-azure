@@ -10,6 +10,8 @@ In this project, we work with a bank marketing dataset to accurately predict if 
 
 ![Workflow](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/workflow.png)
 
+(Workflow Taken from Udacity)
+
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 
