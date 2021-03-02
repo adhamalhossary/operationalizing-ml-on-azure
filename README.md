@@ -16,7 +16,7 @@ In this project, we work with a bank marketing dataset to accurately predict if 
 
 ## Authentication
 
-There was no need to authenticate as i used the environemnt provided by Udacity where authentication was already done.
+There was no need to authenticate as i used the environemnt provided by Udacity where authentication was already implemented.
 
 ## AutoML model
 
@@ -54,7 +54,7 @@ After deploying the best model, Application Insights was enabled and the logs we
 
 ### Swagger
 
-Swagger is a tool that displays the contents of an API easily. The model is consumed using Swagger that is running on the localhostto view t
+Swagger is a tool that displays the contents of an API in easy to read manner. The images below showsSwagger running on the localhost and the responses of the model
 
 ![swagger_1](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_1.png)
 
@@ -63,6 +63,8 @@ Swagger is a tool that displays the contents of an API easily. The model is cons
 ![swagger_3](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_3.png)
 
 ### Endpoint
+
+The interact with the deployed model we use the endpoint.py script
 
 ![endpoint](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/endpoint.png)
 
