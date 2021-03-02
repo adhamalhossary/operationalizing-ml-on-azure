@@ -24,19 +24,19 @@ There was no need to authenticate as i used the environemnt provided by Udacity 
 
 As mentioned earlier, we used the bank marketing dataset in this project.
 
---
+![dataset](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/dataset.png)
 
 ### Completed Experiment
 
 We create an AutoML run on this dataset to solve a classification problem while explaining the best model.
 
-
+![completed_experiment](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/automl_complete.png)
 
 ### Best Model
 
 The best model was a Voting Ensemble model with an accuracy of 92%
 
-
+![best_model](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/best_model.png)
 
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 
