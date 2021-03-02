@@ -70,25 +70,29 @@ The interact with the deployed model we use the endpoint.py script
 
 ### Benchmark
 
+To benchamrk our model, we retrieve a data.json that is created from the endpoint.py script. This json file is then used by benchmark.sh to retrieve performance results
+
 ![benchmark](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/benchmark.png)
 
 ## Create and Publish a Pipeline
 
 ### Create Pipeline
 
-The first step is to create a pipeline
+The first step is to create a pipeline:
 
 ![pipeline_run](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_run.png)
 
-The pipeline endpoint
+The pipeline endpoint:
 
 ![pipeline_endpoint](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_endpoint.png)
 
-Dataset Used
+Dataset Used:
 
 ![pipeline_dataset](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_dataset.png)
 
 ### Publish Pipeline
+
+We then publish the pipeline. We used rundetails to monitor the progress of the pipeline
 
 ![pipeline_publish](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_publish.png)
 
