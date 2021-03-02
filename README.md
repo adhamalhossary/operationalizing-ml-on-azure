@@ -8,7 +8,7 @@ In this project, we work with a bank marketing dataset to accurately predict if 
 
 ## Architectural Diagram
 
-![image](https://user-images.githubusercontent.com/54666362/109633584-298a8780-7b40-11eb-86f6-d11da9fb2737.png)
+![Workflow](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/workflow.png)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
