@@ -40,13 +40,13 @@ The best model was a Voting Ensemble model with an accuracy of 92%
 
 ## Deploy the Best Model
 
-The voting ensemble model was then deployed
+The voting ensemble model was then deployed and "Authentication" was enabled while deploying the model using Azure Container Instance (ACI)
 
 ![deploy_model](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/deploy_model.png)
 
 ## Enable Logging
 
-After deploying the best model, Application Insights was enabled and the logs were retrieved
+After deploying the best model, logs.py was executed to enable Application Insights and retrieve the logs
 
 ![logs](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/logs.png)
 
@@ -54,7 +54,7 @@ After deploying the best model, Application Insights was enabled and the logs we
 
 ### Swagger
 
-Swagger is a tool that displays the contents of an API in easy to read manner. The images below shows Swagger running on the localhost and the responses of the model
+Swagger is a tool that displays the contents of an API in easy to read manner. A swagger.json file was downloaded from Azure, and serve.py and swagger.sh were executed to run Swagger on the localhost. The images below shows Swagger running on the localhost and the responses of the model
 
 ![swagger_1](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/swagger_1.png)
 
@@ -64,7 +64,7 @@ Swagger is a tool that displays the contents of an API in easy to read manner. T
 
 ### Endpoint
 
-The interact with the deployed model we use the endpoint.py script
+To interact with the deployed model, we copy the REST endpoint and the primary key of the model into the endpoint.py script and then run the script. The screenshot below shows the responses retrieved from the model
 
 ![endpoint](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/endpoint.png)
 
@@ -75,6 +75,8 @@ To benchmark our model, we retrieve a data.json that is created from the endpoin
 ![benchmark](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/benchmark.png)
 
 ## Create and Publish a Pipeline
+
+To create and publish a pipeline we run all the cells in the Jupyter notebook. Below are screenshots that show results of running the Jupyter notebook.
 
 ### Create Pipeline
 
@@ -111,3 +113,8 @@ In the published pipeline overview we can see the status (ACTIVE) and a REST end
 # Screen Recording
 
 https://youtu.be/JByL8p3lsnI
+
+# Future Improvements
+
+- Various scripts were run in the terminal. This could be made easier by running them in the Jupyter notebook or combining all the scripts in a single script
+- Use ParalellRunStep to create a Pipeline step to process large amount of data asynchronously and in parallel
