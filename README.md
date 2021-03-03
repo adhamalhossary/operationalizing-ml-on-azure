@@ -108,7 +108,7 @@ In the published pipeline overview we can see the status (ACTIVE) and a REST end
 
 #### Active
 
-![pipeline_publish](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_publish.png)
+![pipeline_active](https://github.com/adhamalhossary/operationalizing-ml-on-azure/blob/main/screenshots/pipeline_endpoint_active.png)
 
 # Screen Recording
 
